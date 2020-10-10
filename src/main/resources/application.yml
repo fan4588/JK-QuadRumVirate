@@ -1,8 +1,8 @@
 server:
   port: 44444
 spring:
-  devtools.restart.enabled: true  #设置开启热部署
-  freemarker.cache: false    #页面不加载缓存，修改即时生效，生产时改为true
+  devtools.restart.enabled: true  #璁剧疆寮�鍚儹閮ㄧ讲
+  freemarker.cache: false     #椤甸潰涓嶅姞杞界紦瀛橈紝淇敼鍗虫椂鐢熸晥锛岀敓浜ф椂鏀逛负true
   redis:
     host: 127.0.0.1
     port: 6379
