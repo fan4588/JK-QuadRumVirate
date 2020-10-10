@@ -18,6 +18,7 @@ public class ApplicationContextManager implements ApplicationContextAware {
         this.applicationContext = applicationContext;
     }
 
+    //获取bean实例
     public Object getBean(String beanName) {
         return applicationContext != null ? applicationContext.getBean(beanName) : null;
     }

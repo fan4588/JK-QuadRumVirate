@@ -1,5 +1,10 @@
 server:
   port: 44444
+  ssl:
+    key-store: classpath:certificate/keystore.p12
+    key-store-password: 123456789
+    key-store-type: PKCS12
+    key-alias: tomcat
 spring:
   devtools.restart.enabled: true  #设置开启热部署
   freemarker.cache: false     #页面不加载缓存，修改即时生效，生产时改为true
