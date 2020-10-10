@@ -6,11 +6,10 @@ import java.io.Serializable;
 
 /**
  * <p>
- * 
+ *
  * </p>
  *
  * @author 
- * @since 2020-08-17
  */
 @Data
 public class User implements Serializable {

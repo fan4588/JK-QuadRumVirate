@@ -1,7 +1,8 @@
 package com.nephew.jk.enums;
 
-import com.fasterxml.jackson.annotation.JsonValue;
-
+/***
+ * 枚举实例
+ */
 public enum AgeEnum {
 
     ONE(1,"1"),

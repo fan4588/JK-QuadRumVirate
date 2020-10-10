@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 import java.util.UUID;
 
 /**
- * 生成32位UUID
+ * 生成32,36位UUID
  */
 @Component
 public class UUIDUtils {

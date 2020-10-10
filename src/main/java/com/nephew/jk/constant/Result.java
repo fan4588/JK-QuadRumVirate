@@ -91,4 +91,5 @@ public class Result extends HashMap<String, Object> {
         init(HttpServletResponse.SC_OK, "请求成功");
         this.put(KEY_DATA, data);
     }
+
 }
