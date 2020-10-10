@@ -34,7 +34,7 @@ spring:
 
 logging.level:
   org: DEBUG
-  com.sinochem: DEBUG
+  com.nephew: DEBUG
 
 mybatis:
   mapper-locations: classpath:mysql/*.xml
