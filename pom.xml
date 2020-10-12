@@ -24,7 +24,7 @@
 
     <repositories>
         <repository>
-            <id>sinochem_nexus</id>
+            <id>nephew_nexus</id>
             <url>https://maven.aliyun.com/repository/public</url>
             <snapshots>
                 <enabled>true</enabled>
@@ -37,7 +37,7 @@
 
     <pluginRepositories>
         <pluginRepository>
-            <id>sinochem_nexus</id>
+            <id>nephew_nexus</id>
             <url>https://maven.aliyun.com/repository/public</url>
             <snapshots>
                 <enabled>true</enabled>
