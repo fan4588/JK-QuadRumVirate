@@ -1,10 +1,10 @@
 server:
   port: 44444
-  ssl:
-    key-store: classpath:certificate/keystore.p12
-    key-store-password: 123456789
-    key-store-type: PKCS12
-    key-alias: tomcat
+#  ssl:
+#    key-store: classpath:certificate/keystore.p12
+#    key-store-password: 123456789
+#    key-store-type: PKCS12
+#    key-alias: tomcat
 spring:
   devtools.restart.enabled: true  #设置开启热部署
   freemarker.cache: false     #页面不加载缓存，修改即时生效，生产时改为true
@@ -46,3 +46,22 @@ mybatis:
 
 swagger:
   enabled: true
+
+#temporaryImgPath: classpath:img
+#temporaryFilePath: classpath:file
+
+
+test-map:
+  limitSizeMap:
+    baidu:
+      a: jjj
+      b: asd
+    sogou:
+      a: asd
+      b: asdsd
+
+test-list:
+  limitSizeList[0]: "baidu: 1024"
+  limitSizeList[1]: "sogou: 90"
+  limitSizeList[2]: "hauwei: 4096"
+  limitSizeList[3]: "qq: 1024"

@@ -27,7 +27,6 @@ public class Swagger2 {
                 .apiInfo(apiInfo())
                 //是否开启 (true 开启  false隐藏。生产环境建议隐藏)
                 //.enable(Boolean.parseBoolean(enableSwagger))
-                .enable(true)
                 .select()
                 //扫描的路径包,设置basePackage会将包下的所有被@Api标记类的所有方法作为api
                 .apis(RequestHandlerSelectors.basePackage("com.nephew.jk.controller"))
